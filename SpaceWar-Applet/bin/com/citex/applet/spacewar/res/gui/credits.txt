@@ -1,0 +1,18 @@
+Spaceship Sprites - Arboris
+Enemy Spaceship - Carl Olsson
+Background - Zenon Mega Blast
+Font - Freaky Fonts
+Music - Kevin MacLeod
+Sound Effects - SFXR
+
+If you want to make your own levels 
+please download the Java SE version 
+www.citexsoftware.co.uk/spacewar
+
+If you enjoyed playing Space War please
+download my other game Dragon Island
+
+Copyright 2012 Citex Software
+All rights reserved
+
+Thank you for playing
