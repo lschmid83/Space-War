@@ -668,11 +668,11 @@ public class GamePanel {
 		x = (float)(x / w * 400.0);
 		y = (float)(y / h * 240.0);
 
-		//Log.i("Controls", "x="+x + " y=" + y);
+		Log.i("Controls", "x="+x + " y=" + y);
 		
 		//up
-		x1 = 28;
-		x2 = 74;
+		x1 = 36;
+		x2 = 68;
 		y1 = 134;
 		y2 = 176;
 		if (x >= x1 && x <= x2 && y > y1 && y <= y2) {
@@ -687,8 +687,8 @@ public class GamePanel {
 		}
 
 		//down
-		x1 = 28;
-		x2 = 74;
+		x1 = 36;
+		x2 = 68;
 		y1 = 196;
 		y2 = 240;
 		if (x >= x1 && x < x2 && y > y1 && y <= y2) {
@@ -705,8 +705,8 @@ public class GamePanel {
 		//left
 		x1 = 0;
 		x2 = 41;
-		y1 = 163;
-		y2 = 207;
+		y1 = 168;
+		y2 = 201;
 		if (x >= x1 && x <= x2 && y >= y1 && y <= y2) {
 			if (Settings.State.equals("game") && !Settings.Paused
 					&& mPlayer != null) {
@@ -721,8 +721,8 @@ public class GamePanel {
 		//right
 		x1 = 62;
 		x2 = 100;
-		y1 = 163;
-		y2 = 207;
+		y1 = 168;
+		y2 = 201;
 		if (x >= x1 && x <= x2 && y > y1 && y < y2) {
 			if (Settings.State.equals("game") && !Settings.Paused
 					&& mPlayer != null) {
