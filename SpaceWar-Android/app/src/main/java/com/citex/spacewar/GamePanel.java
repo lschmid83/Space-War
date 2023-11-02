@@ -280,9 +280,17 @@ public class GamePanel {
             	mBackground.destroy(gl);
             mBackground = new Background(gl, bgFile, mLevelHeader.width, 240, bgSpeed, mAssetManager);
 			int powerupLevel = Player.mPowerupLevel;
+			int playerLife = 0;
+			if(Settings.Difficulty == 0)
+				playerLife = 5;
+			else
+				playerLife = 4;
+			if(Player.mLife != 0)
+				playerLife = Player.mLife;
 			mPlayer = new Player();
 			Player.mPowerupLevel = powerupLevel;
-            mPowerupList = new ArrayList<Powerup>();
+			Player.mLife = playerLife;
+			mPowerupList = new ArrayList<Powerup>();
             mEnemyList = new ArrayList<Enemy>();
             mSceneryList = new ArrayList<Scenery>();
             mExplosionList = new ArrayList<Explosion>();
