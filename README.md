@@ -11,6 +11,12 @@ Space = Shoot
 Ctrl = Fire powerup  
 Enter = Select Menu Item or Pause
 
+Here are some screenshots of the game running:
+
+<img align='left' src='https://drive.google.com/uc?id=170laMtBFEuQRoBAq75SFducvYdjdBQeV' width='240'>
+<img align='left' src='https://drive.google.com/uc?id=1GL3wbAsSCSOMF4ebC8JUzy3AmRq_ojpl' width='240'>
+<img src='https://drive.google.com/uc?id=1L-SA38Oc_tebqXC455toajCl-Jq5HuRa' width='240'>
+
 Below are the instructions on how to setup and run the various projects.
 
 Importing an Eclipse Project
